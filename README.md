@@ -309,7 +309,7 @@ SYSTEM_PROMPT=You are a helpful assistant. Always answer in the same language as
 
 ## Comparison with Other Solutions
 
-| Feature | **This Project (NPU)** | llama.cpp (CPU) | Ollama (GPU) | Cloud API |
+| Feature | **This Project (NPU)** | llama.cpp (CPU) | llama.cpp (GPU) | Cloud API |
 |---------|:---------------------:|:---------------:|:------------:|:---------:|
 | Hardware Required | Intel Core Ultra | Any CPU | NVIDIA GPU | Internet |
 | Privacy | Full local | Full local | Full local | Data sent to cloud |
@@ -325,7 +325,7 @@ SYSTEM_PROMPT=You are a helpful assistant. Always answer in the same language as
 - You want AI running in the background while your CPU and GPU handle other workloads — gaming, rendering, compiling
 - Battery life matters — the NPU draws far less power than CPU or GPU inference
 - You have an Intel Core Ultra laptop and want to put that dedicated AI chip to use
-- You want a dead-simple setup without compiling C++ (llama.cpp) or managing containers (Ollama)
+- You want a dead-simple setup without compiling C++ (llama.cpp) or managing containers (llama.cpp)
 - Privacy is non-negotiable and you need fully on-device, offline AI
 
 ---
